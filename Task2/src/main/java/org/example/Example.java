@@ -14,4 +14,5 @@ public class Example {
 
     @Property(format = "dd.MM.yyyy tt:mm")
     private Instant timeProperty;
+
 }

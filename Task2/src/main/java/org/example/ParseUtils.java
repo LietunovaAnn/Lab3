@@ -89,7 +89,7 @@ public class ParseUtils {
         if (value.length() != 1) {
             throw new ParseException("Cannot parse '" + value + "' as character", value.length());
         }
-        return new Character(value.charAt(0));
+        return value.charAt(0);
     }
 
     private static Object parseInstant(String value) {
@@ -145,6 +145,5 @@ public class ParseUtils {
         }
         throw new ParseException("Cannot parse type not supported parse type " + type, 0);
     }
-
 
 }

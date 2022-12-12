@@ -59,7 +59,6 @@ public class Parser {
                 }
                 if ("fine_amount".equals(field_name)) {
                     jParser.nextToken();
-                    Violation.class.getMethod("setFineAmount").invoke(violation, jParser.getDoubleValue());
                     violation.setFineAmount(jParser.getDoubleValue());
                 }
                 if (violation.getType() != null && violation.getFineAmount() != null) {

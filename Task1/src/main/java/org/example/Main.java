@@ -22,7 +22,7 @@ public class Main {
         long time = System.currentTimeMillis();
         List<Path> paths = getListAllFilePath();
 
-        ExecutorService service = Executors.newFixedThreadPool(1);
+        ExecutorService service = Executors.newFixedThreadPool(8);
         List<CompletableFuture<Map<String, Double>>> futureList = createTheadPool(paths, service);
         Map<String, Double> resultViolationStatistic = combineResultMap(futureList);
         service.shutdown();

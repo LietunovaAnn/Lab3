@@ -1,0 +1,18 @@
+<ViolationsStatistic>
+    <violation>
+        <type>Cell_Phone</type>
+        <fineAmount>1.4305896E9</fineAmount>
+    </violation>
+    <violation>
+        <type>Speeding</type>
+        <fineAmount>7.0823808E8</fineAmount>
+    </violation>
+    <violation>
+        <type>Right-of-Way</type>
+        <fineAmount>4.6959264E8</fineAmount>
+    </violation>
+    <violation>
+        <type>Tailgating</type>
+        <fineAmount>4.362336E8</fineAmount>
+    </violation>
+</ViolationsStatistic>
